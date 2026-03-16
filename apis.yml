@@ -2,7 +2,7 @@ name: Teap APIs
 description: API definitions for Teap platform services
 url: https://teap.io
 created: '2024-01-01'
-modified: '2024-01-01'
+modified: '2026-03-16'
 apis:
 - name: Teap Core API
   description: Main API for Teap platform operations including user management, authentication, and core functionality
