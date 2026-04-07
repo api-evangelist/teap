@@ -13,10 +13,10 @@ apis:
     humanURL: https://teap.io/docs
     baseURL: https://api.teap.io/v1
     tags:
-      - collaboration
-      - productivity
-      - teams
-      - workspace
+      - Collaboration
+      - Productivity
+      - Teams
+      - Workspace
     properties:
       - type: Documentation
         url: https://docs.teap.io/api
@@ -38,9 +38,9 @@ apis:
       Webhook management and event notification system.
     baseURL: https://webhooks.teap.io/v1
     tags:
-      - webhooks
-      - events
-      - notifications
+      - Events
+      - Notifications
+      - Webhooks
     properties:
       - type: Documentation
         url: https://docs.teap.io/webhooks
@@ -51,9 +51,9 @@ apis:
       Analytics and reporting endpoints for workspace insights.
     baseURL: https://analytics.teap.io/v1
     tags:
-      - analytics
-      - reporting
-      - metrics
+      - Analytics
+      - Metrics
+      - Reporting
     properties:
       - type: Documentation
         url: https://docs.teap.io/analytics
@@ -64,8 +64,7 @@ maintainers:
     email: api@teap.io
     twitter: teap
 tags:
-  - collaboration
-  - productivity
-  - teams
-  - workspace
-  - API
+  - Collaboration
+  - Productivity
+  - Teams
+  - Workspace
