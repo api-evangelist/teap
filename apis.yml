@@ -1,66 +1,71 @@
 name: Teap
-description: API definitions for Teap platform services
+description: >-
+  API definitions for Teap platform services.
 url: https://teap.io
 created: '2024-01-01'
 modified: '2026-03-16'
 apis:
-- name: Teap Core API
-  description: Main API for Teap platform operations including user management, authentication, and core functionality
-  image: https://teap.io/images/api-logo.png
-  humanURL: https://teap.io/docs
-  baseURL: https://api.teap.io/v1
-  tags:
+  - name: Teap Core API
+    description: >-
+      Main API for Teap platform operations including user management, authentication,
+      and core functionality.
+    image: https://teap.io/images/api-logo.png
+    humanURL: https://teap.io/docs
+    baseURL: https://api.teap.io/v1
+    tags:
+      - collaboration
+      - productivity
+      - teams
+      - workspace
+    properties:
+      - type: Documentation
+        url: https://docs.teap.io/api
+      - type: OpenAPI
+        url: https://api.teap.io/v1/openapi.json
+      - type: Swagger
+        url: https://api.teap.io/v1/swagger
+      - type: Authentication
+        url: https://docs.teap.io/api/authentication
+    contact:
+      - type: Email
+        url: mailto:api@teap.io
+      - type: Support
+        url: https://support.teap.io
+      - type: Twitter
+        url: https://twitter.com/teap
+  - name: Teap Webhooks API
+    description: >-
+      Webhook management and event notification system.
+    baseURL: https://webhooks.teap.io/v1
+    tags:
+      - webhooks
+      - events
+      - notifications
+    properties:
+      - type: Documentation
+        url: https://docs.teap.io/webhooks
+      - type: OpenAPI
+        url: https://webhooks.teap.io/v1/openapi.json
+  - name: Teap Analytics API
+    description: >-
+      Analytics and reporting endpoints for workspace insights.
+    baseURL: https://analytics.teap.io/v1
+    tags:
+      - analytics
+      - reporting
+      - metrics
+    properties:
+      - type: Documentation
+        url: https://docs.teap.io/analytics
+      - type: OpenAPI
+        url: https://analytics.teap.io/v1/openapi.json
+maintainers:
+  - name: Teap API Team
+    email: api@teap.io
+    twitter: teap
+tags:
   - collaboration
   - productivity
   - teams
   - workspace
-  properties:
-  - type: Documentation
-    url: https://docs.teap.io/api
-  - type: OpenAPI
-    url: https://api.teap.io/v1/openapi.json
-  - type: Swagger
-    url: https://api.teap.io/v1/swagger
-  - type: Authentication
-    url: https://docs.teap.io/api/authentication
-  contact:
-  - type: Email
-    url: mailto:api@teap.io
-  - type: Support
-    url: https://support.teap.io
-  - type: Twitter
-    url: https://twitter.com/teap
-- name: Teap Webhooks API
-  description: Webhook management and event notification system
-  baseURL: https://webhooks.teap.io/v1
-  tags:
-  - webhooks
-  - events
-  - notifications
-  properties:
-  - type: Documentation
-    url: https://docs.teap.io/webhooks
-  - type: OpenAPI
-    url: https://webhooks.teap.io/v1/openapi.json
-- name: Teap Analytics API
-  description: Analytics and reporting endpoints for workspace insights
-  baseURL: https://analytics.teap.io/v1
-  tags:
-  - analytics
-  - reporting
-  - metrics
-  properties:
-  - type: Documentation
-    url: https://docs.teap.io/analytics
-  - type: OpenAPI
-    url: https://analytics.teap.io/v1/openapi.json
-maintainers:
-- name: Teap API Team
-  email: api@teap.io
-  twitter: teap
-tags:
-- collaboration
-- productivity
-- teams
-- workspace
-- API
+  - API
