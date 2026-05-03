@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "teap": "https://raw.githubusercontent.com/api-evangelist/teap/main/json-ld/teap-context.jsonld#",
+    "schema": "https://schema.org/",
+
+    "Workspace": "schema:Project",
+    "workspaceId": "schema:identifier",
+    "workspaceName": "schema:name",
+    "workspaceDescription": "schema:description",
+    "workspaceMembers": "schema:member",
+
+    "User": "schema:Person",
+    "userId": "schema:identifier",
+    "userName": "schema:name",
+    "userEmail": "schema:email",
+    "userRole": "schema:roleName",
+
+    "Task": "schema:Action",
+    "taskId": "schema:identifier",
+    "taskTitle": "schema:name",
+    "taskDescription": "schema:description",
+    "taskStatus": "teap:taskStatus",
+    "taskAssignee": "schema:agent",
+    "taskDueDate": "schema:endDate",
+    "taskCreatedAt": "schema:startDate",
+
+    "Team": "schema:Organization",
+    "teamId": "schema:identifier",
+    "teamName": "schema:name",
+    "teamMembers": "schema:member",
+
+    "Event": "schema:Event",
+    "eventId": "schema:identifier",
+    "eventType": "schema:additionalType",
+    "eventPayload": "teap:payload",
+    "eventTimestamp": "schema:startDate"
+  }
+}

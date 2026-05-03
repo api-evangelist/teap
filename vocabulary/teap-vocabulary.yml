@@ -1,0 +1,80 @@
+name: Teap Vocabulary
+description: >-
+  Domain vocabulary for the Teap collaboration and productivity platform, covering
+  workspace management, team coordination, task management, and integration concepts.
+tags:
+  - Collaboration
+  - Productivity
+  - Teams
+  - Workspace
+created: '2026-05-03'
+modified: '2026-05-03'
+terms:
+  - term: Workspace
+    definition: >-
+      The primary organizational unit in Teap, representing a shared environment
+      for a team or project. Workspaces contain members, tasks, channels, and
+      integrations.
+    synonyms:
+      - Team Workspace
+      - Project Space
+    relatedTerms:
+      - Team
+      - User
+
+  - term: Team
+    definition: >-
+      A group of users within a workspace who collaborate on shared tasks and
+      communications. Teams can have roles and permissions within a workspace.
+    synonyms:
+      - Group
+      - Channel
+    relatedTerms:
+      - Workspace
+      - User
+
+  - term: Task
+    definition: >-
+      A discrete unit of work assigned within a Teap workspace. Tasks have titles,
+      descriptions, assignees, due dates, and status values indicating completion.
+    synonyms:
+      - To-Do
+      - Action Item
+      - Work Item
+    relatedTerms:
+      - Workspace
+      - User
+
+  - term: Webhook
+    definition: >-
+      An HTTP callback registered to receive real-time event notifications from
+      Teap when specific actions occur (e.g., task created, member added, workspace
+      updated). Webhooks enable integration with external systems.
+    synonyms:
+      - Event Callback
+      - HTTP Callback
+    relatedTerms:
+      - Event
+      - Integration
+
+  - term: Event
+    definition: >-
+      A notification emitted by the Teap platform when a state change occurs.
+      Events include task lifecycle changes, member additions/removals, and
+      workspace configuration updates.
+    synonyms:
+      - Notification
+      - Trigger
+    relatedTerms:
+      - Webhook
+
+  - term: Analytics
+    definition: >-
+      Aggregated metrics and reporting data about workspace activity, member
+      engagement, and task completion rates. Available through the Teap Analytics API.
+    synonyms:
+      - Metrics
+      - Reporting
+      - Insights
+    relatedTerms:
+      - Workspace

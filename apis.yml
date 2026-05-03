@@ -1,70 +1,31 @@
+aid: teap
 name: Teap
 description: >-
-  API definitions for Teap platform services.
-url: https://teap.io
+  Teap is a collaboration and productivity platform providing APIs for workspace
+  management, team coordination, real-time notifications, and analytics. The platform
+  offers core REST APIs for managing users, workspaces, and tasks, along with webhook
+  support for event-driven integrations and analytics endpoints for workspace insights.
+url: https://raw.githubusercontent.com/api-evangelist/teap/refs/heads/main/apis.yml
 created: '2024-01-01'
-modified: '2026-03-16'
-apis:
-  - name: Teap Core API
-    description: >-
-      Main API for Teap platform operations including user management, authentication,
-      and core functionality.
-    image: https://teap.io/images/api-logo.png
-    humanURL: https://teap.io/docs
-    baseURL: https://api.teap.io/v1
-    tags:
-      - Collaboration
-      - Productivity
-      - Teams
-      - Workspace
-    properties:
-      - type: Documentation
-        url: https://docs.teap.io/api
-      - type: OpenAPI
-        url: https://api.teap.io/v1/openapi.json
-      - type: Swagger
-        url: https://api.teap.io/v1/swagger
-      - type: Authentication
-        url: https://docs.teap.io/api/authentication
-    contact:
-      - type: Email
-        url: mailto:api@teap.io
-      - type: Support
-        url: https://support.teap.io
-      - type: Twitter
-        url: https://twitter.com/teap
-  - name: Teap Webhooks API
-    description: >-
-      Webhook management and event notification system.
-    baseURL: https://webhooks.teap.io/v1
-    tags:
-      - Events
-      - Notifications
-      - Webhooks
-    properties:
-      - type: Documentation
-        url: https://docs.teap.io/webhooks
-      - type: OpenAPI
-        url: https://webhooks.teap.io/v1/openapi.json
-  - name: Teap Analytics API
-    description: >-
-      Analytics and reporting endpoints for workspace insights.
-    baseURL: https://analytics.teap.io/v1
-    tags:
-      - Analytics
-      - Metrics
-      - Reporting
-    properties:
-      - type: Documentation
-        url: https://docs.teap.io/analytics
-      - type: OpenAPI
-        url: https://analytics.teap.io/v1/openapi.json
-maintainers:
-  - name: Teap API Team
-    email: api@teap.io
-    twitter: teap
+modified: '2026-05-03'
+specificationVersion: '0.19'
 tags:
   - Collaboration
   - Productivity
   - Teams
   - Workspace
+apis: []
+common:
+  - type: Website
+    url: https://teap.io
+  - type: Documentation
+    url: https://docs.teap.io
+  - type: Vocabulary
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/teap/refs/heads/main/vocabulary/teap-vocabulary.yml
+  - type: JSONLDContext
+    url: >-
+      https://raw.githubusercontent.com/api-evangelist/teap/refs/heads/main/json-ld/teap-context.jsonld
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

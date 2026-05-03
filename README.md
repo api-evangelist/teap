@@ -1,64 +1,38 @@
-# Teap APIs (teap)
-API definitions for Teap platform services
+# Teap
 
-**URL:** [Visit APIs.json URL](https://teap.io)
+Teap is a collaboration and productivity platform providing APIs for workspace
+management, team coordination, real-time notifications, and analytics. The platform
+offers core REST APIs for managing users, workspaces, and tasks, along with webhook
+support for event-driven integrations and analytics endpoints for workspace insights.
 
-## Tags:
+**Website:** https://teap.io  
+**Documentation:** https://docs.teap.io
 
- - collaboration, productivity, teams, workspace, API
+## Tags
+
+Collaboration, Productivity, Teams, Workspace
 
 ## Timestamps
 
-- **Created:** 2024-01-01 
-- **Modified:** 2024-01-01 
+- **Created:** 2024-01-01
+- **Modified:** 2026-05-03
 
 ## APIs
 
-### Teap Core API
-Main API for Teap platform operations including user management, authentication, and core functionality
+No public APIs have been formally documented at this time. The platform website is available at https://teap.io.
 
-**Human URL:** [https://teap.io/docs](https://teap.io/docs)
+## Artifacts
 
+| Type | File |
+|---|---|
+| JSON-LD Context | [teap-context.jsonld](json-ld/teap-context.jsonld) |
+| Vocabulary | [teap-vocabulary.yml](vocabulary/teap-vocabulary.yml) |
 
-#### Tags:
+## Vocabulary
 
- - collaboration, productivity, teams, workspace
-
-#### Properties
-
-- [Documentation](https://docs.teap.io/api)
-- [OpenAPI](https://api.teap.io/v1/openapi.json)
-- [Swagger](https://api.teap.io/v1/swagger)
-- [Authentication](https://docs.teap.io/api/authentication)
-
-### Teap Webhooks API
-Webhook management and event notification system
-
-
-#### Tags:
-
- - webhooks, events, notifications
-
-#### Properties
-
-- [Documentation](https://docs.teap.io/webhooks)
-- [OpenAPI](https://webhooks.teap.io/v1/openapi.json)
-
-### Teap Analytics API
-Analytics and reporting endpoints for workspace insights
-
-
-#### Tags:
-
- - analytics, reporting, metrics
-
-#### Properties
-
-- [Documentation](https://docs.teap.io/analytics)
-- [OpenAPI](https://analytics.teap.io/v1/openapi.json)
+A domain vocabulary for the Teap platform is available at [vocabulary/teap-vocabulary.yml](vocabulary/teap-vocabulary.yml),
+covering core concepts including Workspace, Team, Task, Webhook, Event, and Analytics.
 
 ## Maintainers
 
-**FN:** Teap API Team
-
-**Email:** api@teap.io
+- Kin Lane (kin@apievangelist.com)
