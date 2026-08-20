@@ -24,6 +24,11 @@ specificationVersion: '0.23'
 tags:
   - Collaboration
   - Productivity
+  - Team
+  - Workspace
+tags_raw:
+  - Collaboration
+  - Productivity
   - Teams
   - Workspace
 apis: []
